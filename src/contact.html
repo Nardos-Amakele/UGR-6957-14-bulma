@@ -3,68 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Nardos</title>
-    <link rel="icon" type="image/x-icon" href="/UGR-6957-14/src/images/mylogo.jpg">
+    <title>Nardos Amakele</title>
+    <link rel="icon" type="image/x-icon" href="../src/images/mylogo.jpg">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css">
 </head>
 <body>
-    <header>
-        <img src="/UGR-6957-14/src/images/mylogo.jpg" alt="LOGO" width="70" height="70">
-        <h2>Nardos Amakele</h2>
-        <nav>
-            <ul>
-                <li><a href="home.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="skills.html">Skills</a></li>
-                <li><a href="others.html">Others</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-
+    <header >
+        <nav class="navbar is-white has-background-link-dark">
+            <div class="navbar-brand">
+                <img class="navbar-item" src="../src/images/mylogo.jpg" alt="LOGO" width="70" height="70">
+                <h2 class="has-text-white subtitle navbar-item mt-5">Nardos Amakele</h2>
+                <a class="has-background-link-light navbar-burger" id="burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
+            </div>
+            <div class="navbar-menu" id="nav-links" >
+                <div class="navbar-end mr-6" >
+                    <a class="navbar-item has-text-danger" href="home.html">Home</a>
+                    <a class="navbar-item has-text-danger" href="about.html">About</a>
+                    <a class="navbar-item has-text-danger" href="skills.html">Skills</a>
+                    <a class="navbar-item has-text-danger" href="others.html">Others</a>
+                    <a class="navbar-item has-text-danger" href="contact.html">Contact</a>
+                </div>
+            <div>
         </nav>
     </header>
     <main>
-        <section class="contact">
-            <h1>Contact Me</h1>
-            <hr>
-                <div id="logos">
+        <section  class="m-6">
+            <h1 class="ml-5 is-size-5 has-text-weight-bold">Contact Me</h1>
+            <hr class="has-background-black mr-6">
+                <div>
                     <br>
-                    <a href="tel:+251934567894"><i class="fa fa-phone"></i> +1 (234) 567-89</a><br>
-                    <a href="mailto:nardosamakele@gmail.com"><i class="fa fa-envelope"></i> nardos amakele@gmail.com</a><br>
-                    <a href="https://www.bing.com/search?q=addis+ababa+map&filters=dtbk:%22MCFvdmVydmlldyFtYXAhOTM4YWJmYzYtYTE1NC03ZTk0LTViZGEtNmNlNWYxNDhhMWY1%22&FORM=DEPNAV" target="_blank"><i class="fa fa-map-marker"></i>Addis Ababa, Ethiopia</a>
-                    
+                    <a  class="has-text-black is-underlined" href="tel:+251934567894"><i class="fa fa-phone"></i> +1 (234) 567-89</a><br>
+                    <a  class="has-text-black is-underlined" href="mailto:nardosamakele@gmail.com"><i class="fa fa-envelope"></i> nardos amakele@gmail.com</a><br>
+                    <a  class="has-text-black is-underlined" href="https://www.bing.com/search?q=addis+ababa+map&filters=dtbk:%22MCFvdmVydmlldyFtYXAhOTM4YWJmYzYtYTE1NC03ZTk0LTViZGEtNmNlNWYxNDhhMWY1%22&FORM=DEPNAV" target="_blank"><i class="fa fa-map-marker"></i>Addis Ababa, Ethiopia</a>
                 </div>
         </section>
-        <section class="submit">
-            <h2>Let's get in touch. Send me a message:</h2>
-            <form action="/my_server.php" target="_blank">
-                <p><input type="text" placeholder="Name" required name="Name"></p>
-                <p><input type="text" placeholder="Email" required name="Email"></p>
-                <p><input type="text" placeholder="Subject" required name="Subject"></p>
-                <p><input type="text" placeholder="Message" required name="Message"></p>
+        <section  class="m-6">
+            <h2 class="is-size-5 has-text-weight-bold">Let's get in touch. Send me a message:</h2>
+            <form  class="m-5 " action="/my_server.php" target="_blank">
+                <p><input class="has-background-link-light input is-rounded " type="text" placeholder="Name" required name="Name"></p>
+                <p><input class="has-background-link-light input mt-3 is-rounded" type="text" placeholder="Email" required name="Email"></p>
+                <p><input class="has-background-link-light input mt-3 is-rounded" type="text" placeholder="Subject" required name="Subject"></p>
+                <p><input class="has-background-link-light input mt-3 is-rounded" type="text" placeholder="Message" required name="Message"></p>
                 <p>
-                  <button  type="submit">
+                  <button  class="button is-danger mt-4" type="submit">
                     <i> SEND MESSAGE</i>
                   </button>
                 </p>
               </form>
         </section>
-        <address>
-            <div>
+        <address class="ml-4">
+            <div class="m-6">
                 Nardos Amakele<br>
                 4 killo, King George Street<br>
                 Addis Ababa, Ethiopia<br>
             </div>
         </address>
     </main>
-    <footer>
-        <ul>
-            <li><a href="https://www.facebook.com/nardos.amakele/"  target="_blank" class="fa fa-facebook"></a></li>
-            <li><a href="https://www.instagram.com/nardosamakele/"  target="_blank" class="fa fa-instagram"></a></li>
-            <li><a href="https://www.snapchat.com/add/nardos_amakele?share_id=-AAOjmdlIyM&locale=en-GB"   target="_blank" class="fa fa-snapchat-ghost"></a></li>
-            <li><a href=" https://x.com/Imscarious?t=NXE5MJNs7088Ipez-raGEQ&s=35" target="_blank" class="fa fa-twitter"></a></li>
-            <li><a href="https://www.linkedin.com/in/nardos-amakele-792ab6278/?originalSubdomain=et"  target="_blank" class="fa fa-linkedin"></a></li>
+    <footer class="py-5 has-background-link-dark" >
+        <ul class="is-flex">
+            <li class="has-background-link-light ml-5 is-size-4 p-1"><a href="https://www.facebook.com/nardos.amakele/"  target="_blank" class="fa fa-facebook"></a></li>
+            <li class="has-background-link-light ml-4 is-size-4 p-1"><a href="https://www.instagram.com/nardosamakele/"  target="_blank" class="fa fa-instagram"></a></li>
+            <li class="has-background-link-light ml-4 is-size-4 p-1"><a href="https://www.snapchat.com/add/nardos_amakele?share_id=-AAOjmdlIyM&locale=en-GB"   target="_blank" class="fa fa-snapchat-ghost"></a></li>
+            <li class="has-background-link-light ml-4 is-size-4 p-1"><a href=" https://x.com/Imscarious?t=NXE5MJNs7088Ipez-raGEQ&s=35" target="_blank" class="fa fa-twitter"></a></li>
+            <li class="has-background-link-light ml-4 is-size-4 p-1"><a href="https://www.linkedin.com/in/nardos-amakele-792ab6278/?originalSubdomain=et"  target="_blank" class="fa fa-linkedin"></a></li>
         </ul>
-        <p title="copyrights">&copy; 2023 My Website. All rights reserved.</p>
+        <p class="has-text-white is-size-7 ml-3" title="copyrights">&copy; 2023 My Website. All rights reserved.</p>
     </footer>
+    <script src="../src/js/bulmajava.js"></script>
 </body>
 </html>

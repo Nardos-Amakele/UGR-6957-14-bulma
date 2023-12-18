@@ -3,76 +3,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Nardos</title>
-    <link rel="icon" type="image/x-icon" href="/UGR-6957-14/src/images/mylogo.jpg">
+    <title>Nardos Amakele</title>
+    <link rel="icon" type="image/x-icon" href="../src/images/mylogo.jpg">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css">
 </head>
-<body>
-    <header>
-        <img src="/UGR-6957-14/src/images/mylogo.jpg" alt="LOGO" width="70" height="70">
-        <h2>Nardos Amakele</h2>
-        <nav>
-            <ul>
-                <li><a href="home.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="skills.html">Skills</a></li>
-                <li><a href="others.html">Others</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-
+<body class="has-background-white">
+    <header >
+        <nav class="navbar is-white has-background-link-dark">
+            <div class="navbar-brand">
+                <img class="navbar-item" src="../src/images/mylogo.jpg" alt="LOGO" width="70" height="70">
+                <h2 class="has-text-white subtitle navbar-item mt-5">Nardos Amakele</h2>
+                <a class="has-background-link-light navbar-burger" id="burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
+            </div>
+            <div class="navbar-menu" id="nav-links" >
+                <div class="navbar-end mr-6" >
+                    <a class="navbar-item has-text-danger" href="home.html">Home</a>
+                    <a class="navbar-item has-text-danger" href="about.html">About</a>
+                    <a class="navbar-item has-text-danger" href="skills.html">Skills</a>
+                    <a class="navbar-item has-text-danger" href="others.html">Others</a>
+                    <a class="navbar-item has-text-danger" href="contact.html">Contact</a>
+                </div>
+            <div>
         </nav>
     </header>
-    <main>
-        <section class="para">
-            <h1>About me</h1>
-            <p>Hey there!</p>
-            <img src="/UGR-6957-14/src/images/aboutmephoto.jpg" alt="LOGO" height="250" title="Me!">
-            <p>Welcome to my world! I'm thrilled to have you here. </p>
-            <p>I'm a young and enthusiastic student currently studying at Addis Ababa University. My passion lies in the fascinating realms of web development and software engineering. Being a creative soul, I love infusing art into my work, bringing a unique and aesthetic touch to everything I create.</p>
-            <p>With a strong command of HTML, CSS, and JavaScript, I have the technical skills to bring your ideas to life. I pride myself on being a fast learner, always eager to explore new technologies and stay up-to-date with the latest industry trends.</p>
-            <p>Ethiopia, particularly Hawassa, is my beloved hometown, and its vibrant culture and heritage fuel my creativity. I draw inspiration from its diverse art forms and traditional music, which constantly enrich my work.</p>
-            <p>When I'm not coding or designing, you'll find me immersed in various creative pursuits. I enjoy expressing myself through art, experimenting with different mediums, and exploring the power of music to evoke emotions. It's safe to say that creativity, in all its forms, is my passion and my driving force.</p>
-            <p>As a young female in the tech industry, I'm determined to break barriers and make my mark. I find immense joy in learning about history, as it provides a rich tapestry of inspiration for my projects.  One of my favorite quotes is from Emperor Hailesilassie which you can check out <a href="#below">here.</a></p>
-            <p>I'm thrilled to embark on this journey of innovation and collaboration. Let's work together to create remarkable digital experiences that not only meet but exceed your expectations. Get in touch, and let's turn your visions into reality!</p>
-        </section>
-        <section class="container">
-            <h3>Educational background</h3>
-            <div id="first">
-                <P>During my early years of education, in primary school, I attended Cecilia School and then, Saint Gabreal Monastry school. I beleive the bases of our future are on the hands of our early education. whether it be at home or school. This schools taught me a lot!</P>
-                <img src="/UGR-6957-14/src/images/cecilia.jpg" alt="Cecilia School" width="70" height="100">
-                <a href="https://www.facebook.com/people/Saint-Gabriel-School/100068364932999/" target="_blank">
-                    <img src="/UGR-6957-14/src/images/gabreal.jpg" alt="St. Gabreal School" width="70" height="100">
-                </a>
+    <main class="p-5">
+        <section class="p-6 has-background-link-light">
+            <div>
+            <h1 class=" title">About me</h1>
+            <p class=" subtitle">Hey there!</p>
+            <figure class="image is-128x128">
+                <img src="../src/images/aboutmephoto.jpg" alt="LOGO" height="250" title="Me!">
+            </figure>
             </div>
-            <div id="second">
-                <p> I attended my highschool in Saint Daniel Comboni School. It is a chatolic school which is one of the best schools in the city. My highschool years were amazing from attending the best school to the friends I made, I would say it was one of the best moments of my life.</p>
-                <a href="https://www.facebook.com/combonihawassa/" target="_blank">
-                    <img src="/UGR-6957-14/src/images/comboni.jpg" alt="St. Daniel Comboni School" width="70" height="100">
-                </a>
+            <div class="mt-6">
+                <p>Welcome to my world! I'm thrilled to have you here. </p>
+                <p>I'm a young and enthusiastic student currently studying at Addis Ababa University. My passion lies in the fascinating realms of web </p>
+                <p>development and software engineering. Being a creative soul, I love infusing art into my work, bringing a unique and aesthetic touch to everything I create.</p>
+                <p>With a strong command of HTML, CSS, and JavaScript, I have the technical skills to bring your ideas to life. I pride myself on being a fast learner, always eager to explore new technologies and stay up-to-date with the latest industry trends.</p>
+                <p>Ethiopia, particularly Hawassa, is my beloved hometown, and its vibrant culture and heritage fuel my creativity. I draw inspiration from its diverse art forms and traditional music, which constantly enrich my work.</p>
+                <p>When I'm not coding or designing, you'll find me immersed in various creative pursuits. I enjoy expressing myself through art, experimenting with different mediums, and exploring the power of music to evoke emotions. It's safe to say that creativity, in all its forms, is my passion and my driving force.</p>
+                <p>As a young female in the tech industry, I'm determined to break barriers and make my mark. I find immense joy in learning about history, as it provides a rich tapestry of inspiration for my projects.  One of my favorite quotes is from Emperor Hailesilassie which you can check out <a href="#below">here.</a></p>
+                <p>I'm thrilled to embark on this journey of innovation and collaboration. Let's work together to create remarkable digital experiences that not only meet but exceed your expectations. Get in touch, and let's turn your visions into reality!</p>    
             </div>
-            <div id="third">
-                <p>I'm currently attending Addis Ababa University, AAiT campus, which is located in Addis Ababa, 5killo. The experiance so far is great and I'm learning a lot.</p>
-                <a href="http://www.aau.edu.et/" target="_blank">
-                <img src="/UGR-6957-14/src/images/addisababa.png" alt="Addis Ababa University" width="70" height="100">
-            </a>
-            </div>
-        </section>
-    </main>
+            </section>
+            <h3 class="has-text-centered is-size-4 has-text-weight-bold m-6">Educational background</h3>
+            <div class="container">
+                <section class="columns is-justify-content-space-around p-5">
+                    <div class="has-background-warning p-3">
+                  <p>During my early years of education, in primary school, I attended Cecilia School and then, Saint Gabreal Monastry school. I believe the bases of our future are on the hands of our early education, whether it be at home or school. These schools taught me a lot!</p>
+                  <div class="has-text-centered">
+                    <img src="../src/images/cecilia.jpg" alt="Cecilia School" width="70" height="100">
+                    <a href="https://www.facebook.com/people/Saint-Gabriel-School/100068364932999/" target="_blank">
+                      <img src="../src/images/gabreal.jpg" alt="St. Gabriel School" width="70" height="100">
+                    </a>
+                  </div>
+                </div>
+                <div class="has-background-warning p-3 m-2">
+                  <p>I attended my high school at Saint Daniel Comboni School. It is a Catholic school and one of the best schools in the city. My high school years were amazing, from attending the best school to the friends I made. I would say it was one of the best moments of my life.</p>
+                  <a href="https://www.facebook.com/combonihawassa/" target="_blank">
+                    <figure class="has-text-centered">
+                      <img src="../src/images/comboni.jpg" alt="St. Daniel Comboni School" width="70" height="100">
+                    </figure>
+                  </a>
+                </div>
+                <div class="has-background-warning p-3">
+                  <p>I'm currently attending Addis Ababa University, AAiT campus, which is located in Addis Ababa, 5killo. The experience so far is great, and I'm learning a lot.</p>
+                  <a href="http://www.aau.edu.et/" target="_blank">
+                    <figure class="has-text-centered">
+                      <img src="../src/images/addisababa.png" alt="Addis Ababa University" width="70" height="100">
+                    </figure>
+                  </a>
+                </div>
+              </section>
+            </main>
     <aside>
-        <audio src="/UGR-6957-14/src/images/myaudio.mp3" controls id="below">
+        <audio class="mt-3 ml-3" src="../src/images/myaudio.mp3" controls id="below">
             Your browser does not support the audio element.
           </audio>
-        <a href="https://youtu.be/6wlH_9a16uo?si=rkbq1aGJtrMg-vRv" target="_blank"><h5>Emperor Haile Selassie "David will still beat Goliath"</h5></a>
+        <a href="https://youtu.be/6wlH_9a16uo?si=rkbq1aGJtrMg-vRv" target="_blank"><h5 class="is-size-7 mb-5 ml-4 has-text-weight-bold is-underlined" >Emperor Haile Selassie "David will still beat Goliath"</h5></a>
     </aside>
-    <footer>
-        <ul>
-            <li><a href="https://www.facebook.com/nardos.amakele/"  target="_blank" class="fa fa-facebook"></a></li>
-            <li><a href="https://www.instagram.com/nardosamakele/"  target="_blank" class="fa fa-instagram"></a></li>
-            <li><a href="https://www.snapchat.com/add/nardos_amakele?share_id=-AAOjmdlIyM&locale=en-GB"   target="_blank" class="fa fa-snapchat-ghost"></a></li>
-            <li><a href=" https://x.com/Imscarious?t=NXE5MJNs7088Ipez-raGEQ&s=35" target="_blank" class="fa fa-twitter"></a></li>
-            <li><a href="https://www.linkedin.com/in/nardos-amakele-792ab6278/?originalSubdomain=et"  target="_blank" class="fa fa-linkedin"></a></li>
+    <footer class="py-5 has-background-link-dark" >
+        <ul class="is-flex">
+            <li class="has-background-link-light ml-5 is-size-4 p-1"><a href="https://www.facebook.com/nardos.amakele/"  target="_blank" class="fa fa-facebook"></a></li>
+            <li class="has-background-link-light ml-4 is-size-4 p-1"><a href="https://www.instagram.com/nardosamakele/"  target="_blank" class="fa fa-instagram"></a></li>
+            <li class="has-background-link-light ml-4 is-size-4 p-1"><a href="https://www.snapchat.com/add/nardos_amakele?share_id=-AAOjmdlIyM&locale=en-GB"   target="_blank" class="fa fa-snapchat-ghost"></a></li>
+            <li class="has-background-link-light ml-4 is-size-4 p-1"><a href=" https://x.com/Imscarious?t=NXE5MJNs7088Ipez-raGEQ&s=35" target="_blank" class="fa fa-twitter"></a></li>
+            <li class="has-background-link-light ml-4 is-size-4 p-1"><a href="https://www.linkedin.com/in/nardos-amakele-792ab6278/?originalSubdomain=et"  target="_blank" class="fa fa-linkedin"></a></li>
         </ul>
-        <p title="copyrights">&copy; 2023 My Website. All rights reserved.</p>
+        <p class="has-text-white is-size-7 ml-3" title="copyrights">&copy; 2023 My Website. All rights reserved.</p>
     </footer>
+    <script src="../src/js/bulmajava.js"></script>
 </body>
 </html>
